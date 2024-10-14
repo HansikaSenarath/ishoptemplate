@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <!-- First Section -->
+        <div class="section section-1">
+            <div class="left">
+                <select class="laguages">
+                    <option value="english">English</option>
+                    <option value="Turkish">Turkish</option>
+                    <option value="Hindi">Hindi</option>
+                </select>
+                <div class="mail">
+                    <i class="fas fa-envelope"></i>
+                    <span>webzedcontact@gmail.com |</span>
+                </div>
+                <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    <span>Helpline 4534345656</span>
+                </div>
+            </div>
+            <hr class="hr"> <!-- Add a horizontal line below section 1 -->
+            <div class="right">
+                <a href="#" class="no-underline">BE A SELLER |</a>
+                <i class="fas fa-sign-in-alt"></i>
+                <a href="#" class="no-underline">Login |</a>
+                <i class="fas fa-user"></i>
+                <a href="#" class="no-underline">Register</a>
+            </div>
+        </div>
+        <hr>
+        <!-- Second Section -->
+        <div class="section section-2">
+            <div class="left">
+                <img src="images/icon.png" alt="Icon" style="height: 50px;"> <!-- Increased the size of the icon image -->
+                <div class="search-container">
+                    <input type="text" class="search-bar" placeholder="Search for products...">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                <select class="myaccount">
+                    <option value="my-account">My Account</option>
+                    <option value="cart">Cart</option>
+                    <option value="wishlist">Wishlist</option>
+                </select>
+            </div>
+            <div class="right">
+                <i class="fas fa-shopping-cart"></i>
+                <a href="#" class="no-underline">Cart</a>
+            </div>
+        </div>
+        <hr>
+        <!-- Third Section -->
+        <div class="section section-3">
+            <div class="left">
+                <a href="#" class="section-link">DISCOVER</a>
+                <span>| </span> 
+                <a href="#" class="section-link">PRODUCTS</a>
+                <span>| </span>
+                <a href="#" class="section-link">CATEGORIES</a>
+                <span>| </span>
+                <a href="#" class="section-link">BRANDS</a>
+                <span>| </span>
+                <a href="#" class="section-link">HOT DEALS</a>
+            </div>
+            <div class="right">
+                <a href="#" class="section-link">TRACK ORDER</a>
+                <a href="#" class="section-link">FAQ</a>
+                <a href="#" class="section-link">HELP</a>
+                <a href="#" class="section-link">CONTACT US</a>
+            </div>
+        </div>
+    </header>
+    <!--main container section-->
+    <div class="main-container-custom">
+        <div class="left-section-custom">
+            <div class="slider-wrapper-custom">
+                <a href="url_for_slide_1" class="left-slide-link-custom">
+                    <img class="left-slider-item-custom" src="images/slider-1.jpeg" alt="Slide 1">
+                </a>
+                <a href="url_for_slide_2" class="left-slide-link-custom">
+                    <img class="left-slider-item-custom" src="images/slider-2.jpeg" alt="Slide 2">
+                </a>
+                <a href="url_for_slide_3" class="left-slide-link-custom">
+                    <img class="left-slider-item-custom" src="images/slider-3.jpeg" alt="Slide 3">
+                </a>
+                <a id="left-prev-btn-custom" class="left-prev-btn-custom" onclick="changeSlide(-1)">&#10094;</a>
+                <a id="left-next-btn-custom" class="left-next-btn-custom" onclick="changeSlide(1)">&#10095;</a>
+            </div>
+        </div>
+        <div class="right-section-custom">
+            <a href="url_for_slide_4" class="right-slide-link-custom">
+                <img class="right-slider-item-custom" src="images/slider-4.jpeg" alt="Slide 4">
+            </a>
+            <a href="url_for_slide_5" class="right-slide-link-custom">
+                <img class="right-slider-item-custom" src="images/slider-5.jpeg" alt="Slide 5">
+            </a>
+        </div>
+    </div>
+    <!--end of the main section-->
+
+    <!--start to features section-->
+    <div class="features-section">
+        <div class="feature">
+            <img src="images/site-feature-1.jpeg" alt="Feature 1">
+            <div class="feature-text">
+                <h3>Rapid shipping</h3>
+                <p>With a short period of time.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <img src="images/site-feature-2.jpeg" alt="Feature 2">
+            <div class="feature-text">
+                <h3>Secure transaction</h3>
+                <p>With a Checkout securely.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <img src="images/site-feature-3.jpeg" alt="Feature 3">
+            <div class="feature-text">
+                <h3>24/7 support</h3>
+                <p>With a Ready to pickup calls.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <img src="images/site-feature-4.jpeg" alt="Feature 4">
+            <div class="feature-text">
+                <h3>Bundle offer</h3>
+                <p>With a On many products.</p>
+            </div>
+        </div>
+    </div>
+    <!--end of the fetures section-->
+
+<!--new year sale section-->
+<div class="next-container">
+    <div class="sale-title">
+      <h2>New Year Sale</h2>
+      <div class="countdown-timer">346:20:37:46</div>
+    </div>
+    <a href="#" class="show-all-link">Show all</a>
+  </div>
+  <hr>
+  
+  <div class="slideshow-container">
+    <a href="link_to_image_1">
+      <img src="images/1.png" alt="Image 1" class="slideshow-image">
+    </a>
+    <a href="link_to_image_2">
+      <img src="images/2.png" alt="Image 2" class="slideshow-image">
+    </a>
+    <a href="link_to_image_3">
+      <img src="images/3.png" alt="Image 3" class="slideshow-image">
+    </a>
+    <a href="link_to_image_4">
+      <img src="images/4.png" alt="Image 4" class="slideshow-image">
+    </a>
+    <a href="link_to_image_5">
+      <img src="images/5.png" alt="Image 5" class="slideshow-image">
+    </a>
+    <a href="link_to_image_6">
+      <img src="images/6.png" alt="Image 6" class="slideshow-image">
+    </a>
+    <a href="link_to_image_7">
+      <img src="images/7.png" alt="Image 7" class="slideshow-image">
+    </a>
+    <a href="link_to_image_7">
+      <img src="images/8.png" alt="Image 8" class="slideshow-image">
+    </a>
+    <a class="prev-slideshow-btn" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="next-slideshow-btn" onclick="changeSlide(1)">&#10095;</a>
+  </div>
+   
+    <!--images banner section-->
+    <div class="image-container"></div>
+    <div class="additional-section">
+        <div class="additional-column">
+            <a href="link_to_banner_1">
+                <img src="images/banner-2.jpeg" alt="Banner 1" class="additional-image">
+            </a>
+        </div>
+        <div class="additional-column">
+            <a href="link_to_banner_2">
+                <img src="images/banner-3.jpeg" alt="Banner 2" class="additional-image">
+            </a>
+        </div>
+        <div class="additional-column">
+            <a href="link_to_banner_3">
+                <img src="images/banner-4.jpeg" alt="Banner 3" class="additional-image">
+            </a>
+        </div>
+    </div>
+    <!--end of the images banner section-->
+    <!--features products section-->
+    <div class="featured-products-container">
+        <div class="title-container">
+            <h2 class="featured-products-title">Featured products</h2>
+            <a href="#" class="show-all-link">Show all</a>
+        </div>
+        <hr>
+        <div class="featured-products-slideshow" id="slideshow">
+            <div class="image-row">
+                <a href="link_to_product_1"><img src="images/a1.png" alt="Product 1" class="featured-product-image"></a>
+                <a href="link_to_product_2"><img src="images/a2.png" alt="Product 2" class="featured-product-image"></a>
+                <a href="link_to_product_3"><img src="images/a3.png" alt="Product 3" class="featured-product-image"></a>
+            </div>
+            <div class="image-row">
+                <a href="link_to_product_4"><img src="images/a8.png" alt="Product 4" class="featured-product-image"></a>
+                <a href="link_to_product_5"><img src="images/a5.png" alt="Product 5" class="featured-product-image"></a>
+                <a href="link_to_product_6"><img src="images/a6.png" alt="Product 6" class="featured-product-image"></a>
+            </div>
+        </div>
+    </div>
+    <!--tending products-->
+    <div class="trending-products-container">
+        <div class="title-container">
+            <h2 class="trending-products-title">Trending products</h2>
+            <a href="#" class="show-all-link">Show all</a>
+        </div>
+        <hr>
+        <div class="trending-products-slideshow">
+            <a href="link_to_product_1"><img src="images/c1.png" alt="Product 1" class="trending-product-image"></a>
+            <a href="link_to_product_2"><img src="images/c2.png" alt="Product 2" class="trending-product-image"></a>
+            <a href="link_to_product_3"><img src="images/c3.png" alt="Product 3" class="trending-product-image"></a>
+            <a href="link_to_product_4"><img src="images/c4.png" alt="Product 4" class="trending-product-image"></a>
+            <a href="link_to_product_5"><img src="images/c5.png" alt="Product 5" class="trending-product-image"></a>
+            <a href="link_to_product_6"><img src="images/c6.png" alt="Product 6" class="trending-product-image"></a>
+            <a href="link_to_product_7"><img src="images/c7.png" alt="Product 7" class="trending-product-image"></a>
+            <a href="link_to_product_8"><img src="images/c3.png" alt="Product 8" class="trending-product-image"></a>
+        </div>
+    </div>
+    
+<!--featured catogory--> 
+<div class="featured-categories-container">
+    <div class="title-container">
+        <h2 class="featured-categories-title">Featured Categories</h2>
+        <a href="#" class="show-all-link">Show all</a>
+    </div>
+    
+    <div class="featured-categories-images">
+        <a href="link_to_category_A"><img src="images/A.png" alt="Category A"></a>
+        <a href="link_to_category_B"><img src="images/B.png" alt="Category B"></a>
+        <a href="link_to_category_C"><img src="images/C.png" alt="Category C"></a>
+        <a href="link_to_category_D"><img src="images/D.png" alt="Category D"></a>
+        <a href="link_to_category_E"><img src="images/E.png" alt="Category E"></a>
+        <a href="link_to_category_F"><img src="images/F.png" alt="Category F"></a>
+        <a href="link_to_category_I"><img src="images/I.png" alt="Category I"></a>
+        <a href="link_to_category_J"><img src="images/J.png" alt="Category J"></a>
+        <a href="link_to_category_K"><img src="images/K.png" alt="Category K"></a>
+    </div>
+</div>
+<!--brand container-->
+<div class="featured-brands-container">
+    <div class="left-column">
+        <div class="title-wrapper">
+            <h2>Featured Brands</h2>
+            <a href="#" class="show-all-link">Show All</a>
+        </div>
+        <div class="slideshow-container" id="slider">
+            <!-- First row -->
+            <div class="image-row">
+                <a href="#"><img src="images/d2.png" alt="Image 1" class="slideshow-image"></a>
+                <a href="#"><img src="images/d3.png" alt="Image 2" class="slideshow-image"></a>
+                <a href="#"><img src="images/d4.png" alt="Image 3" class="slideshow-image"></a>
+                <a href="#"><img src="images/d5.png" alt="Image 4" class="slideshow-image"></a>
+                <a href="#"><img src="images/d6.png" alt="Image 5" class="slideshow-image"></a>
+                <a href="#"><img src="images/d7.png" alt="Image 6" class="slideshow-image"></a>
+            </div>
+            <!-- Second row -->
+            <div class="image-row">
+                <a href="#"><img src="images/d8.png" alt="Image 7" class="slideshow-image"></a>
+                <a href="#"><img src="images/d9.png" alt="Image 8" class="slideshow-image"></a>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="right-column">
+        <img src="images/78.png" alt="Ad Image" class="ad-image">
+    </div>
+</div>
+<!--Top selling products-->
+<div class="additional-container">
+    <div class="title-container">
+        <h2 class="top-selling-title">Top Selling Products</h2>
+        <a href="#" class="show-all-link">Show all</a>
+    </div>
+    <hr>
+    <div class="unique">
+        <div class="left-column">
+            <a href="link_to_product_101">
+                <img src="images/101.png" alt="Product 101">
+            </a>
+            <a href="link_to_product_102">
+                <img src="images/102.png" alt="Product 102">
+            </a>
+            <a href="link_to_product_103">
+                <img src="images/103.png" alt="Product 103">
+            </a>
+            <a href="link_to_product_104">
+                <img src="images/104.png" alt="Product 104">
+            </a>
+            <a href="link_to_product_105">
+                <img src="images/105.png" alt="Product 105">
+            </a>
+        </div>
+        <div class="right-column">
+            <a href="link_to_product_106">
+                <img src="images/106.png" alt="Product 106">
+            </a>
+            <a href="link_to_product_107">
+                <img src="images/107.png" alt="Product 107">
+            </a>
+            <a href="link_to_product_108">
+                <img src="images/108.png" alt="Product 108">
+            </a>
+            <a href="link_to_product_109">
+                <img src="images/109.png" alt="Product 109">
+            </a>
+        </div>
+    </div>
+</div>
+<!--banner 1 section -->
+<div class="next-container">
+    <div class="next-image">
+        <img src="images/b1.png" alt="Image B" class="next-image-content">
+    </div>
+</div>
+
+<!--collection section-->
+<div class="next-container">
+    <div class="left-section">
+        <h2 class="daily-discover-title">Daily Discover</h2>
+    </div>
+    <div class="right-section">
+        <a href="#" class="show-all-link">Show all</a>
+    </div>
+</div>
+<hr>
+
+<div class="image-container">
+    <div class="image-line">
+        <a href="link_to_image_11"><img src="images/11.png" alt="Image 11"></a>
+        <a href="link_to_image_12"><img src="images/12.png" alt="Image 12"></a>
+        <a href="link_to_image_13"><img src="images/13.png" alt="Image 13"></a>
+        <a href="link_to_image_14"><img src="images/14.png" alt="Image 14"></a>
+        <a href="link_to_image_15"><img src="images/15.png" alt="Image 15"></a>
+    </div>
+    <div class="image-line">
+        <a href="link_to_image_16"><img src="images/16.png" alt="Image 16"></a>
+        <a href="link_to_image_17"><img src="images/17.png" alt="Image 17"></a>
+        <a href="link_to_image_18"><img src="images/18.png" alt="Image 18"></a>
+        <a href="link_to_image_19"><img src="images/19.png" alt="Image 19"></a>
+        <a href="link_to_image_20"><img src="images/20.png" alt="Image 20"></a>
+    </div>
+    <div class="image-line">
+        <a href="link_to_image_21"><img src="images/21.png" alt="Image 21"></a>
+        <a href="link_to_image_22"><img src="images/22.png" alt="Image 22"></a>
+        <a href="link_to_image_23"><img src="images/23.png" alt="Image 23"></a>
+        <a href="link_to_image_24"><img src="images/24.png" alt="Image 24"></a>
+        <a href="link_to_image_25"><img src="images/25.png" alt="Image 25"></a>
+    </div>
+    <div class="image-line">
+        <a href="link_to_image_26"><img src="images/26.png" alt="Image 26"></a>
+        <a href="link_to_image_27"><img src="images/27.png" alt="Image 27"></a>
+        <a href="link_to_image_28"><img src="images/28.png" alt="Image 28"></a>
+        <a href="link_to_image_29"><img src="images/29.png" alt="Image 29"></a>
+        <a href="link_to_image_30"><img src="images/30.png" alt="Image 30"></a>
+    </div>
+    <div class="image-line">
+        <a href="link_to_image_31"><img src="images/31.png" alt="Image 31"></a>
+        <a href="link_to_image_32"><img src="images/32.png" alt="Image 32"></a>
+        <a href="link_to_image_33"><img src="images/33.png" alt="Image 33"></a>
+        <a href="link_to_image_34"><img src="images/34.png" alt="Image 34"></a>
+        <a href="link_to_image_35"><img src="images/35.png" alt="Image 35"></a>
+    </div>
+</div>
+<!--button-->
+<div class="full-page-container">
+    <button class="show-more-button">Show More</button>
+</div>
+<!--b2-->
+<div class="image-container">
+    <img src="images/banner-6.jpeg" alt="Banner 6">
+</div>
+<!--subscribe -->
+
+<div class="newsletter-container">
+    <div class="newsletter-left">
+        <div class="newsletter-title">Subscribe to our Newsletter</div>
+        <div class="newsletter-text">Get our latest updates in your email.</div>
+    </div>
+    <div class="newsletter-right">
+        <div class="newsletter-input-container">
+            <input type="email" class="newsletter-email-input" placeholder="Your email">
+            <button class="newsletter-subscribe-btn">Subscribe</button>
+        </div>
+    </div>
+</div>
+
+<!--details container-->
+<div class="new-container">
+    <div class="row">
+        <div class="item">
+            <h3 class="item-heading">Toys, Kids & Babies</h3>
+            <ul>
+                <li><a href="bath_link">Bath & Baby Care</a></li>
+                <li><a href="maternity_link">Maternity Care</a></li>
+                <li><a href="kids_furniture_link">Kid's Furniture</a></li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3 class="item-heading">Men's Shoes</h3>
+            <ul>
+                <li><a href="formal_shoes_link">Formal Shoes</a></li>
+                <li><a href="sandals_link">Sandals & Flip-Flops</a></li>
+                <li><a href="sneakers_link">Sneakers</a></li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3 class="item-heading">Home Appliances</h3>
+            <ul>
+                <li><a href="housekeeping_link">Housekeeping</a></li>
+                <li><a href="tv_accessories_link">TV Accessories</a></li>
+                <li><a href="kitchen_appliances_link">Small Kitchen Appliances</a></li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3 class="item-heading">Men's Wear</h3>
+            <ul>
+                <li><a href="pants_link">Pants</a></li>
+                <li><a href="bags_link">Crossbody & Shoulder Bags</a></li>
+                <li><a href="shirts_link">Shirts</a></li>
+                <li><a href="jackets_link">Jackets & Coats</a></li>
+                <li><a href="wallet_link">Men's Wallet</a></li>
+                <li><a href="backpacks_link">Backpacks</a></li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <h3 class="item-heading">Men's Bags</h3>
+            <ul>
+                <li><a href="totes_link">Totes</a></li>
+                <li><a href="briefcases_link">Briefcases</a></li>
+                <li><a href="suit_carriers_link">Suit Carriers</a></li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <h3 class="item-heading">Women's Clothing</h3>
+            <ul>
+                <li><a href="tops_link">Tops</a></li>
+                <li><a href="dresses_link">Dresses</a></li>
+                <li><a href="socks_tights_link">Socks & Tights</a></li>
+                <li><a href="pants_leggings_link">Pants & Leggings</a></li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <h3 class="item-heading">Beauty & Personal Care</h3>
+            <ul>
+                <li><a href="womens_hair_care_link">Women's Hair Care</a></li>
+                <li><a href="feminine_care_link">Feminine Care</a></li>
+                <li><a href="skincare_link">Skincare</a></li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <h3 class="item-heading">Home & Living</h3>
+            <ul>
+                <li><a href="home_decor_link">Home Decor</a></li>
+                <li><a href="tools_outdoors_link">Tools, DIY & Outdoors</a></li>
+                <li><a href="kitchen_dining_link">Kitchen & Dining</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="item">
+            <h3 class="item-heading">Food & Beverages</h3>
+            <ul>
+                <li><a href="snacks_sweets_link">Snacks & Sweets</a></li>
+                <li><a href="meat_seafood_link">Meat & Seafood</a></li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <h3 class="item-heading">Travel & Luggage</h3>
+            <ul>
+                <li><a href="luggage_link">Luggage</a></li>
+                <li><a href="travel_bags_backpacks_link">Travel Bags & Backpacks</a></li>
+                <li><a href="travel_accessories_link">Travel Accessories</a></li>
+            </ul>
+        </div>
+
+          
+        <div class="item">
+            <h3 class="item-heading">Jewellery & Accessories</h3>
+            <ul>
+                <li><a href="hats_caps_link">Hats & Caps</a></li>
+                <li><a href="key_chains_link">Key Chains</a></li>
+                <li><a href="eyewear_link">Eyewear</a></li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <h3 class="item-heading">Women's Bags</h3>
+            <ul>
+                <li><a href="sling_bags_link">Sling Bags</a></li>
+                <li><a href="clutches_mini_bags_link">Clutches & Mini Bags</a></li>
+                <li><a href="handbags_link">Handbags</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--ishop-->
+<div class="image">
+    <img src="images/ishop.png" alt="Banner ishop">
+</div>
+
+<!--footer section-->
+
+<footer>
+    <div class="footer-column">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>About</h3>
+      <ul>
+        <li><a href="#">Refund Policy</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Sitemap</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Payment</h3>
+      <a href="#"><img src="images/payment.png" alt="Payment" class="payment-image" /></a>
+    </div>
+    <div class="footer-column">
+      <h3>Social</h3>
+      <a href="#"><img src="images/s1.png" alt="Social 1" class="social-image" /></a>
+      <a href="#"><img src="images/s2.png" alt="Social 2" class="social-image" /></a>
+      <a href="#"><img src="images/s3.png" alt="Social 3" class="social-image" /></a>
+      <a href="#"><img src="images/s4.png" alt="Social 4" class="social-image" /></a>
+    </div>
+  </footer>
+  
+</body>
+</html>
